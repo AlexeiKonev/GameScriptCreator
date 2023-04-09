@@ -31,7 +31,8 @@
             this.lstScenes = new System.Windows.Forms.ListBox();
             this.lstDialogues = new System.Windows.Forms.ListBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtScript = new System.Windows.Forms.TextBox();
+            this.btnAddDialogueToScene_Click = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCreateScene
@@ -61,11 +62,11 @@
             // 
             // btnCreateDialogue
             // 
-            this.btnCreateDialogue.Location = new System.Drawing.Point(289, 56);
+            this.btnCreateDialogue.Location = new System.Drawing.Point(289, 31);
             this.btnCreateDialogue.Name = "btnCreateDialogue";
-            this.btnCreateDialogue.Size = new System.Drawing.Size(86, 46);
+            this.btnCreateDialogue.Size = new System.Drawing.Size(105, 71);
             this.btnCreateDialogue.TabIndex = 3;
-            this.btnCreateDialogue.Text = "button2";
+            this.btnCreateDialogue.Text = "CreateDialogue";
             this.btnCreateDialogue.UseVisualStyleBackColor = true;
             this.btnCreateDialogue.Click += new System.EventHandler(this.btnCreateDialogue_Click);
             // 
@@ -103,20 +104,31 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtScript
             // 
-            this.textBox3.Location = new System.Drawing.Point(558, 178);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 49);
-            this.textBox3.TabIndex = 8;
+            this.txtScript.Location = new System.Drawing.Point(558, 178);
+            this.txtScript.Multiline = true;
+            this.txtScript.Name = "txtScript";
+            this.txtScript.Size = new System.Drawing.Size(100, 49);
+            this.txtScript.TabIndex = 8;
+            // 
+            // btnAddDialogueToScene_Click
+            // 
+            this.btnAddDialogueToScene_Click.Location = new System.Drawing.Point(289, 129);
+            this.btnAddDialogueToScene_Click.Name = "btnAddDialogueToScene_Click";
+            this.btnAddDialogueToScene_Click.Size = new System.Drawing.Size(114, 98);
+            this.btnAddDialogueToScene_Click.TabIndex = 9;
+            this.btnAddDialogueToScene_Click.Text = "Add DialogueToScene";
+            this.btnAddDialogueToScene_Click.UseVisualStyleBackColor = true;
+            this.btnAddDialogueToScene_Click.Click += new System.EventHandler(this.btnAddDialogueToScene_Click_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.btnAddDialogueToScene_Click);
+            this.Controls.Add(this.txtScript);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.lstDialogues);
             this.Controls.Add(this.lstScenes);
@@ -142,6 +154,7 @@
         private ListBox lstScenes;
         private ListBox lstDialogues;
         private Button button3;
-        private TextBox textBox3;
+        private TextBox txtScript;
+        private Button btnAddDialogueToScene_Click;
     }
 }

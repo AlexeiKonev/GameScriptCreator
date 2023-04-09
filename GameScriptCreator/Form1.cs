@@ -23,5 +23,25 @@ namespace GameScriptCreator {
             lstDialogues.Items.Add(dialogueText);
             txtDialogueText.Clear();
         }
+        private void lstScenes_SelectedIndexChanged(object sender, EventArgs e) {
+            // Выбор текущей сцены
+            if (lstScenes.SelectedIndex >= 0) {
+                currentScene = scenes[lstScenes.SelectedIndex];
+            }
+        }
+        private void lstDialogues_SelectedIndexChanged(object sender, EventArgs e) {
+            // Выбор текущего диалога
+            if (lstDialogues.SelectedIndex >= 0) {
+                currentDialogue = dialogues[lstDialogues.SelectedIndex];
+            }
+        }
+
+        private void btnAddDialogueToScene_Click_Click(object sender, EventArgs e) {
+            // Добавление диалога в текущую сцену
+            if (!string.IsNullOrEmpty(currentScene) && !string.IsNullOrEmpty(currentDialogue)) {
+                string scriptLine = $"ShowDialogue('{currentScene}', '{currentDialogue}');";
+                txtScript.AppendText(scriptLine + Environment.NewLine);
+            }
+        }
     }
 }

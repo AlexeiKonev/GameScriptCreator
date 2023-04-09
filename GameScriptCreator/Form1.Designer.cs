@@ -26,10 +26,10 @@
             this.btnCreateScene = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.txtSceneName = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnCreateDialogue = new System.Windows.Forms.Button();
+            this.txtDialogueText = new System.Windows.Forms.TextBox();
             this.lstScenes = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.lstDialogues = new System.Windows.Forms.ListBox();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -40,7 +40,7 @@
             this.btnCreateScene.Name = "btnCreateScene";
             this.btnCreateScene.Size = new System.Drawing.Size(98, 46);
             this.btnCreateScene.TabIndex = 0;
-            this.btnCreateScene.Text = "button1";
+            this.btnCreateScene.Text = "CreateScene";
             this.btnCreateScene.UseVisualStyleBackColor = true;
             this.btnCreateScene.Click += new System.EventHandler(this.btnCreateScene_Click);
             // 
@@ -59,21 +59,22 @@
             this.txtSceneName.Size = new System.Drawing.Size(100, 31);
             this.txtSceneName.TabIndex = 2;
             // 
-            // button2
+            // btnCreateDialogue
             // 
-            this.button2.Location = new System.Drawing.Point(289, 56);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 46);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCreateDialogue.Location = new System.Drawing.Point(289, 56);
+            this.btnCreateDialogue.Name = "btnCreateDialogue";
+            this.btnCreateDialogue.Size = new System.Drawing.Size(86, 46);
+            this.btnCreateDialogue.TabIndex = 3;
+            this.btnCreateDialogue.Text = "button2";
+            this.btnCreateDialogue.UseVisualStyleBackColor = true;
+            this.btnCreateDialogue.Click += new System.EventHandler(this.btnCreateDialogue_Click);
             // 
-            // textBox2
+            // txtDialogueText
             // 
-            this.textBox2.Location = new System.Drawing.Point(409, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 31);
-            this.textBox2.TabIndex = 4;
+            this.txtDialogueText.Location = new System.Drawing.Point(409, 71);
+            this.txtDialogueText.Name = "txtDialogueText";
+            this.txtDialogueText.Size = new System.Drawing.Size(100, 31);
+            this.txtDialogueText.TabIndex = 4;
             // 
             // lstScenes
             // 
@@ -84,14 +85,14 @@
             this.lstScenes.Size = new System.Drawing.Size(120, 154);
             this.lstScenes.TabIndex = 5;
             // 
-            // listBox2
+            // lstDialogues
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 25;
-            this.listBox2.Location = new System.Drawing.Point(409, 136);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(120, 154);
-            this.listBox2.TabIndex = 6;
+            this.lstDialogues.FormattingEnabled = true;
+            this.lstDialogues.ItemHeight = 25;
+            this.lstDialogues.Location = new System.Drawing.Point(409, 136);
+            this.lstDialogues.Name = "lstDialogues";
+            this.lstDialogues.Size = new System.Drawing.Size(120, 154);
+            this.lstDialogues.TabIndex = 6;
             // 
             // button3
             // 
@@ -117,10 +118,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.lstDialogues);
             this.Controls.Add(this.lstScenes);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.txtDialogueText);
+            this.Controls.Add(this.btnCreateDialogue);
             this.Controls.Add(this.txtSceneName);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.btnCreateScene);
@@ -136,10 +137,10 @@
         private Button btnCreateScene;
         private CheckedListBox checkedListBox1;
         private TextBox txtSceneName;
-        private Button button2;
-        private TextBox textBox2;
+        private Button btnCreateDialogue;
+        private TextBox txtDialogueText;
         private ListBox lstScenes;
-        private ListBox listBox2;
+        private ListBox lstDialogues;
         private Button button3;
         private TextBox textBox3;
     }

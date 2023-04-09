@@ -1,0 +1,17 @@
+E:\NET projects\GameScriptCreator\GameScriptCreator\bin\Debug\net6.0-windows\GameScriptCreator.exe
+E:\NET projects\GameScriptCreator\GameScriptCreator\bin\Debug\net6.0-windows\GameScriptCreator.deps.json
+E:\NET projects\GameScriptCreator\GameScriptCreator\bin\Debug\net6.0-windows\GameScriptCreator.runtimeconfig.json
+E:\NET projects\GameScriptCreator\GameScriptCreator\bin\Debug\net6.0-windows\GameScriptCreator.dll
+E:\NET projects\GameScriptCreator\GameScriptCreator\bin\Debug\net6.0-windows\GameScriptCreator.pdb
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.csproj.AssemblyReference.cache
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.Form1.resources
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.csproj.GenerateResource.cache
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.GeneratedMSBuildEditorConfig.editorconfig
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.AssemblyInfoInputs.cache
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.AssemblyInfo.cs
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.csproj.CoreCompileInputs.cache
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.dll
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\refint\GameScriptCreator.dll
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.pdb
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\GameScriptCreator.genruntimeconfig.cache
+E:\NET projects\GameScriptCreator\GameScriptCreator\obj\Debug\net6.0-windows\ref\GameScriptCreator.dll

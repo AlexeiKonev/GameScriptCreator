@@ -15,5 +15,13 @@ namespace GameScriptCreator {
             lstScenes.Items.Add(sceneName);
             txtSceneName.Clear();
         }
+
+        private void btnCreateDialogue_Click(object sender, EventArgs e) {
+            // Создание нового диалога
+            string dialogueText = txtDialogueText.Text;
+            dialogues.Add(dialogueText);
+            lstDialogues.Items.Add(dialogueText);
+            txtDialogueText.Clear();
+        }
     }
 }
